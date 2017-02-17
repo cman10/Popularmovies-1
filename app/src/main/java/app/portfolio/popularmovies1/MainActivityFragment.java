@@ -79,7 +79,7 @@ public class MainActivityFragment extends Fragment implements AdapterView.OnItem
         URL url = null;
 
         try {
-            url = new URL("http://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=b2131e0b7ca718dd5b831c5076e66d5c");
+            url = new URL("http://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=xxxxxxxxxxxxxxxxxxxx");
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
